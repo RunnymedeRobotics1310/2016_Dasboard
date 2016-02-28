@@ -75,7 +75,7 @@ public class RobotComms {
 						}
 					}}, true);
 
-		System.out.println(autoChooser.getString("selected"));
+		System.out.println(autoChooser.getString("selected", "Not found"));
 		
 	}
 	
